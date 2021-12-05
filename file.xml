@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="shiporder.xsd">
+  <Schedule  name="ИФСТ-31">
+    <day name="Monday" >
+      <lesson number="1" teacher="Зуева И.А." audience="Сп.зал">Элективные курсы по физической культуре</lesson>
+      <lesson number="2" teacher="ст.пр.Бахарева О.В" audience="525">Английский язык</lesson>
+      <lesson number="3" teacher="ст.пр. Ефремов Р.В"  audience="ВЦ">Современные технологии интернетпрограммирования</lesson>
+    </day>
+    <day name="Tuesday" >
+      <lesson number="2" teacher="доц.Виштак Н.М." audience="ВЦ">М/м технологии</lesson>
+      <lesson number="3" teacher="доц.Очкур Г.В." audience="102">Моделирование процессов и систем</lesson>
+    </day>
+    <day name="Wednesday">
+      <lesson number="1" teacher="ст.пр. Мотков А.Г." audience="102">Технологии создания web-ресурсов</lesson>
+      <lesson number="2.1" parity="odd" teacher="ст.пр.Мотков А.Г" audience="102">Технологии создания web-ресурсов</lesson>
+      <lesson number="2.2" parity="even" teacher="проф.Виштак О.В" audience="102">Арх-ра инф.систем </lesson>
+    </day>
+    <day name="Thursday">
+      <lesson number="2.1" teacher="доц. Михайлова О.Н" audience="420">ФНиТ</lesson>
+      <lesson number="2.2" parity="odd" teacher="ст.пр.Михеев И.В." audience="ВЦ">Арх-ра инф.систем </lesson>
+      <lesson number="3" parity="even" teacher="ст.пр.Михеев И.В." audience="ВЦ">Архитектура информационных систем </lesson>
+    </day>
+    <day name="Friday">
+      <lesson number="1" teacher="доц.Штырова И.А." audience="102">Современные технологии управения базами данных</lesson>
+      <lesson number="2.1" parity="odd" teacher="ст.пр. Зуева И.А." audience="Сп.зал">Элективные курсы по физической культуре </lesson>
+      <lesson number="2.2" parity="even" teacher="доц. Штырова И.А." audience="102">Совр.технологии упр-я базами данных </lesson>
+    </day>
+    <day name="Saturday">
+      <lesson number="1.1" parity="odd" teacher="доц. Михайлова О.Н." audience="дистант">Философия науки и техники</lesson>
+      <lesson number="3" teacher="Бельмесов П.И." audience="ВЦ">Современные технологии ООП </lesson>
+      <lesson number="4.2" parity="even" teacher="Бельмесов П.И." audience="ВЦ">Современные технологии ООП </lesson>
+    </day>
+  </Schedule>
+</root>
